@@ -119,3 +119,23 @@ video, iframe {
     display: none;
     background-color: black;
 }
+
+
+/* Style for the <a> element to look like a button */
+.play-btn2, .link-btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    font-size: 12px;
+    text-align: center;
+}
+
+.play-btn2:hover, .link-btn:hover {
+    background-color: #3700b3;
+}
