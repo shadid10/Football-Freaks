@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Cards with Background</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Video Library</h1>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="ben vs bar.jpg" alt="Video Thumbnail">
+            <h3>Video 1</h3>
+            <p>A short description of Video 1.</p>
+            <button class="play-btn" data-type="m3u8" data-link="http://10.10.10.2/live/fnffeed1003/index.m3u8">Play M3U8</button>
+            <button class="play-btn" data-type="iframe" data-link="https://example.com/embedded-video1">Play Embedded</button>
+        </div>
+        <div class="card">
+            <img src="path/to/image2.jpg" alt="Video Thumbnail">
+            <h2>Video 2</h2>
+            <p>A short description of Video 2.</p>
+            <button class="play-btn" data-type="m3u8" data-link="http://10.10.10.2/live/fnffeed1003/index.m3u8">Play M3U8</button>
+            <button class="play-btn" data-type="iframe" data-link="https://embedsports.me/big-bash-league/hobart-hurricanes-vs-sydney-sixers-stream-1">Play Embedded</button>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
+
+    <!-- Modal for Video Player -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <button id="close-modal" class="close-btn">X</button>
+            <video id="video" controls muted></video>
+            <iframe id="iframe" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
