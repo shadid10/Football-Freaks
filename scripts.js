@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         videoElement.style.display = "block";
         if (Hls.isSupported()) {
           const hls = new Hls();
-          hls.loadSource(link);
+          hls.loadSource("http://10.10.10.2/live/fnffeed1003/index.m3u8");
           hls.attachMedia(videoElement);
         } else if (videoElement.canPlayType("application/vnd.apple.mpegurl")) {
           videoElement.src = link;
