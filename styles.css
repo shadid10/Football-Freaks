@@ -17,7 +17,6 @@ body, html {
 }
 
 .header h1 {
-    /* margin: 10px; */
     color: #fff;
 }
 
@@ -36,18 +35,15 @@ body, html {
     overflow: hidden;
     text-align: center;
     padding: 15px;
-    /* color: #333; */
 }
 
 .card img {
     width: 100%;
-    /* height: auto; */
     border-radius: 4px;
     border-bottom: 1px solid #ddd;
 }
 
 .card h3 {
-    /* font-size: 18px; */
     margin: 15px 0;
     color: #333;
 }
@@ -55,7 +51,6 @@ body, html {
 .card p {
     font-size: 14px;
     color: #666;
-    /* margin: 10px 0; */
 }
 
 .card button {
@@ -120,8 +115,7 @@ video, iframe {
     background-color: black;
 }
 
-
-/* Style for the <a> element to look like a button */
+/* Style for <a> element to look like a button */
 .play-btn2, .link-btn {
     display: inline-block;
     background-color: #007BFF;
@@ -131,11 +125,90 @@ video, iframe {
     margin: 5px;
     cursor: pointer;
     border-radius: 5px;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
     font-size: 12px;
     text-align: center;
 }
 
 .play-btn2:hover, .link-btn:hover {
     background-color: #3700b3;
+}
+
+/* Media Query for Smaller Screens (Phones) */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr); /* Reduce to 2 cards per row */
+        gap: 10px;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card img {
+        height: auto; /* Ensure images resize proportionally */
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .card button, .link-btn {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+
+    .modal-content {
+        width: 95%; /* Slightly smaller modal on small screens */
+    }
+
+    video, iframe {
+        height: 200px; /* Reduce video/iframe height */
+    }
+}
+
+/* Media Query for Extra Small Screens */
+@media screen and (max-width: 480px) {
+    .card-container {
+        grid-template-columns: 1fr; /* Only 1 card per row */
+    }
+
+    .card {
+        padding: 8px;
+    }
+
+    .card h3 {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 10px;
+    }
+
+    .card button, .link-btn {
+        font-size: 8px;
+        padding: 5px 8px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    video, iframe {
+        height: 150px;
+    }
 }
