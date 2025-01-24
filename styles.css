@@ -192,6 +192,7 @@ video, iframe {
     .tab-btn {
         padding: 8px 15px;
         font-size: 14px;
+        width: auto;
     }
 }
 
@@ -210,7 +211,7 @@ video, iframe {
     }
 
     .tab-btn {
-        width: 100%; /* Full width buttons for smaller screens */
+        width: auto; /* Full width buttons for smaller screens */
         text-align: center;
     }
 
