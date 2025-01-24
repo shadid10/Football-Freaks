@@ -12,50 +12,52 @@
     <div class="header">
         <h1>Watch Live Ad Free</h1>
     </div>
-    <div class="card-container">
-        <!-- <div class="card">
-            <img src="hof vs tot.jpg" alt="Video Thumbnail">
-            <h3>TSG Hoffenheim vs Tottenham Hotspur</h3>
-            <p>UEFA Europa League 2024-25</p>
-            <p>Round 7</p>
-            <p>Starts at 11:45 PM</p>
-            <button class="play-btn" data-type="m3u8" data-link="https://hastycast.live/hls/eJmauBDCIf.m3u8?st=9fwwuNEUVtN7U4t4RVfPMq63VFRN0_ryRYVbNsVzkT8&e=1737661544">TNT Sports</button>
-            <button class="play-btn" data-type="m3u8" data-link="https://nametopallsite.click/live/3/chunks.m3u8?bongls.com">Super Sports</button>
-            <a class="play-btn2" href="https://dai.google.com/linear/hls/event/3b4sC3GDQiigmH7iMYfwTQ/master.m3u8" target="_blank">Play in Mobile</a>
-            <a class="play-btn2" href="https://dai.google.com/linear/hls/event/3b4sC3GDQiigmH7iMYfwTQ/master.m3u8" target="_blank">Play in Browser with Extension</a>
-            <button class="play-btn" data-type="iframe" data-link="https://embedsports.me/champions-league/benfica-vs-barcelona-stream-1">Play Direct Link</button>
-        </div> -->
 
-        
-
-        <div class="card">
-            <img src="bbl syd.jpg" alt="Video Thumbnail">
-            <h3></h3>
-            <p>Big Bash League 2025</p>
-            <p>Playoff</p>
-            <p>Starts at 02:00 AM</p>
-            <button class="play-btn" data-type="m3u8" data-link="https://muc1.mylife1.top:8088/live/webcrict20/playlist.m3u8?vidictid=20112308137&id=118106&pk=21b4fca1a085cc9ffb15e0e6505b2cecb5ebff673cc91dec1383fffa3b26964c006bcb9f56705e6beeeff0dc872dbd81b4b0f5bcce59e48ffdf80c7577db6ced">Sky Sports</button>
-            <button class="play-btn" data-type="m3u8" data-link="https://streamline.sturls.com/TSports-2/index.fmp4.m3u8?token=3a29a02b260c8439523cc4b63870524542d99f25-d30291f76f035015721f902d87d40922-1737760369-1737749569">Sky Sports</button>
-            <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=willowusa">Play Direct Link</button>    
-        </div>
-
-        <div class="card">
-            <img src="bpl.jpg" alt="Video Thumbnail">
-            <h3></h3>
-            <p>Bangladesh Premier League 2025</p>
-            <p>24/7 Highlights</p>
-            <!-- <p>Starts at 02:00 AM</p> -->
-            <button class="play-btn" data-type="m3u8" data-link="https://live.tsports.com/live-02/master_1080.m3u8">Play</button>
-            <button class="play-btn" data-type="m3u8" data-link="https://bdixtv24.site/toffee/live.php?id=ten_cricket&e=.m3u8">Play</button>
-            <!-- <button class="play-btn" data-type="iframe" data-link="">Play Direct Link</button>     -->
-        </div>
-
-        
-
-
-        
-        <!-- Add more cards as needed -->
+    <div class="tabs-container">
+        <button class="tab-btn active" data-target="view-all">View All</button>
+        <button class="tab-btn" data-target="live-tv">Live TV</button>
+        <button class="tab-btn" data-target="live-events">Live Events</button>
     </div>
+
+
+    <!-- Tab Contents -->
+  <div id="live-tv" class="tab-content active">
+  <h3 class="section-heading">Live TV</h3> <!-- Separate heading -->
+  <div class="card-container">
+    <div class="card">
+      <img src="hof vs tot.jpg" alt="Video Thumbnail">
+      <h3>TV Channel 1</h3>
+      <p>Description of TV 1</p>
+      <button class="play-btn" data-type="m3u8" data-link="https://example.com/tv1.m3u8">Play Channel 1</button>
+    </div>
+    <div class="card">
+      <img src="utd vs ran.png" alt="Video Thumbnail">
+      <h3>TV Channel 2</h3>
+      <p>Description of TV 2</p>
+      <button class="play-btn" data-type="iframe" data-link="https://example.com/tv2">Play Channel 2</button>
+    </div>
+  </div>
+  </div>
+
+  <div id="live-events" class="tab-content active">
+  <h3 class="section-heading">Live Events</h3> <!-- Separate heading -->
+  <div class="card-container">
+    <div class="card">
+      <img src="bbl syd.jpg" alt="Video Thumbnail">
+      <h3>Big Bash League 2025</h3>
+      <p>Playoff</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="m3u8" data-link="https://example.com/event1.m3u8">Sky Sports</button>
+      <button class="play-btn" data-type="iframe" data-link="https://example.com/event1">Play Direct Link</button>
+    </div>
+    <div class="card">
+      <img src="bpl.jpg" alt="Event Thumbnail">
+      <h3>Champions League Final</h3>
+      <p>Starts at 08:00 PM</p>
+      <button class="play-btn" data-type="m3u8" data-link="https://example.com/event2.m3u8">Watch Live</button>
+    </div>
+  </div>
+  </div>
 
     <!-- Modal for Video Player -->
     <div id="video-modal" class="modal">
