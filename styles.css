@@ -118,7 +118,7 @@ video, iframe {
     justify-content: center;
     gap: 20px;
     margin-bottom: 20px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .tab-btn {
@@ -186,13 +186,15 @@ video, iframe {
     }
 
     .tabs-container {
+        justify-content: center;
         gap: 10px;
     }
 
     .tab-btn {
-        padding: 8px 15px;
+        flex: 1 1 auto; /* Distribute space evenly */
+        padding: 10px 15px;
         font-size: 14px;
-        /* width: auto; */
+        text-align: center;
     }
 }
 
@@ -206,12 +208,14 @@ video, iframe {
     }
 
     .tabs-container {
-        flex-direction: column;
-        gap: 5px;
+        justify-content: center;
+        gap: 10px;
     }
 
     .tab-btn {
-        width: auto; /* Full width buttons for smaller screens */
+        flex: 1 1 auto; /* Distribute space evenly */
+        padding: 10px 15px;
+        font-size: 14px;
         text-align: center;
     }
 
