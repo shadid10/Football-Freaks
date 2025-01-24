@@ -118,7 +118,7 @@ video, iframe {
     justify-content: center;
     gap: 20px;
     margin-bottom: 20px;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    /* flex-wrap: wrap; */
 }
 
 .tab-btn {
@@ -192,7 +192,7 @@ video, iframe {
     .tab-btn {
         padding: 8px 15px;
         font-size: 14px;
-        width: auto;
+        /* width: auto; */
     }
 }
 
