@@ -214,6 +214,20 @@ video, iframe {
 }
 
 
+.standings-btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .header {
