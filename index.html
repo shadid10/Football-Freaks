@@ -13,11 +13,24 @@
         <h1>Watch Live Ad Free</h1>
     </div>
 
+    
+
     <div class="tabs-container">
         <button class="tab-btn active" data-target="view-all">View All</button>
         <button class="tab-btn" data-target="live-tv">Live TV</button>
         <button class="tab-btn" data-target="live-events">Live Events</button>
     </div>
+
+    <!-- Standings Modal -->
+<div id="standings-modal" class="modal">
+    <div class="modal-content">
+        <button id="close-standings" class="close-btn2">×</button>
+        <iframe id="standings-iframe" style="height: 600px; width: 100%;" frameborder="0" scrolling="no"></iframe>
+        <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+            Standings provided by <a target="_blank" href="https://www.sofascore.com/">Sofascore</a>
+        </div>
+    </div>
+</div>
 
 
     <!-- Tab Contents -->
@@ -277,30 +290,34 @@
 
   <div id="live-events" class="tab-content active">
   <h3 class="section-heading">Live Events</h3> <!-- Separate heading -->
+
+  <div>
+      <p>* Contains Ad. Please use Brave Browser if possible :)</p>
+  </div>
+
   <div class="card-container">
 
 
-    <div class="card">
+    <!-- <div class="card">
       <img src="3rd-T20I-India-vs-England.avif" alt="Video Thumbnail">
       <h3>England Tour of India 2025</h3>
       <p>3rd T20i</p>
-      <!-- <p>Starts at 02:00 AM</p> -->
+      <p>Starts at 02:00 AM</p>
       <button class="play-btn" data-type="iframe" data-link="https://secureplayer.sportstvn.com/token.php?stream=TSports">T Sports HD</button>
       <button class="play-btn" data-type="iframe" data-link="https://secureplayer.sportstvn.com/token.php?stream=StarSports01">Star Sports HD 1</button>
       <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=bbtsp1">TNT Sports 1</button>
-    </div>
+    </div> -->
 
-    <div class="card">
+    <!-- <div class="card">
       <img src="bpl.jpg" alt="Video Thumbnail">
       <h3>BPL 2024-25</h3>
       <p>Live Match</p>
-      <!-- <p>Starts at 02:00 AM</p> -->
+      <p>Starts at 02:00 AM</p>
       <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=asportshd">A Sports HD</button>
       <button class="play-btn" data-type="m3u8" data-link="https://live.tsports.com/live-02/index.m3u8">T Sports Bangla</button>
       <button class="play-btn" data-type="iframe" data-link="https://yosintv3.github.io/player/player5.html?url=https://buddyxiptv.com/fancode/global/primary/113383_english_hls_5886ta-no/index.m3u8">Fancode</button>
       <button class="play-btn" data-type="iframe" data-link="https://secureplayer.sportstvn.com/token.php?stream=TSports">T Sports</button>
-            <!-- <button class="play-btn" data-type="iframe" data-link="https://example.com/event1">Play Direct Link</button> -->
-    </div>
+    </div> -->
 
        
     <!-- <div class="card">
@@ -386,6 +403,207 @@
       <p>Starts at 08:30 PM</p>
       <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=skysfott">Play</button>
     </div> -->
+
+    <!-- UEFA Champions League Card -->
+<div class="card">
+    <img src="uefa-champions-league-pictures-rergq5gltabhbbnw.jpg" alt="Video Thumbnail">
+    <h3>UEFA Champions League 2024-25</h3>
+    <p>Live Points Table</p>
+    <a class="standings-btn" href="javascript:void(0);" data-link="https://widgets.sofascore.com/embed/tournament/138314/season/61644/standings/UEFA%20Champions%20League?widgetTitle=UEFA%20Champions%20League&showCompetitionLogo=true">
+    Click to See
+    </a>
+</div>
+
+
+
+
+    <div class="card">
+      <img src="bar ata.png" alt="Video Thumbnail">
+      <h3>Barcelona vs Atalanta</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="m3u8" data-link="https://bdixtv24.site/toffee/live.php?id=sony_sports_5_hd&e=.m3u8">Source 1</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=superfotball">Source 2</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=hdchnl15">Source 3</button>
+     
+    </div>
+
+    <div class="card">
+      <img src="ast cel.png" alt="Video Thumbnail">
+      <h3>Aston Villa vs Celtic</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="iframe" data-link="https://secureplayer.sportstvn.com/token.php?stream=TNTSports01">Source 1</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=bbtsp1">Source 2</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=superlaliga">Source 3</button>
+      
+    </div>
+
+    <div class="card">
+      <img src="lev pra.png" alt="Video Thumbnail">
+      <h3>Bayer Leverkusen vs Sparta Prague</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="iframe" data-link="https://secureplayer.sportstvn.com/token.php?stream=SuperSportsCricket">Source 1</button>
+      
+    </div>
+
+    <div class="card">
+      <img src="bay slo.png" alt="Video Thumbnail">
+      <h3>Bayern Munich vs Slovan Bratislava</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="m3u8" data-link="https://bdixtv24.site/toffee/live.php?id=sony_sports_1_hd&e=.m3u8">Source 1</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=hdchnl12">Source 2</button>
+
+    </div>
+
+    <div class="card">
+      <img src="dor sha.png" alt="Video Thumbnail">
+      <h3>Borussia Dortmund vs Shakhtar Donetsk</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="iframe" data-link="https://sportstreamslife.shop/player/stream-424.php">Source 2</button>
+      
+    </div>
+
+    <div class="card">
+      <img src="bre mad.png" alt="Video Thumbnail">
+      <h3>Brest vs Real Madrid</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="m3u8" data-link="https://secureplayer.sportstvn.com/token.php?stream=SonySportsTen03">Source 1</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=hdchnl11">Source 2</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=hdchnl9">Source 3</button>
+  
+    </div>
+
+    <div class="card">
+      <img src="dia acm.png" alt="Video Thumbnail">
+      <h3>Dinamo Zagreb vs AC Milan</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+     
+    </div>
+
+    <div class="card">
+      <img src="gir ars.png" alt="Video Thumbnail">
+      <h3>Girona vs Arsenal</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="iframe" data-link="https://secureplayer.sportstvn.com/token.php?stream=TNTSports04">Source 1</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=bbtespn">Source 2</button>
+      <button class="play-btn" data-type="iframe" data-link="https://thedaddy.to/embed/stream-420.php">Source 3</button>
+
+    </div>
+
+    <div class="card">
+      <img src="int mon.png" alt="Video Thumbnail">
+      <h3>Inter Milan vs Monaco</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=hdchnl7">Source 1</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=hdchnl14">Source 2</button>
+      
+    </div>
+
+    <div class="card">
+      <img src="juv ben.png" alt="Video Thumbnail">
+      <h3>Juventus vs Benfica</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=hdchnl6">Source 1</button>
+      
+    </div>
+
+    <div class="card">
+      <img src="lil fey.png" alt="Video Thumbnail">
+      <h3>Lille vs Feyenoord</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      
+    </div>
+
+    <div class="card">
+      <img src="city vs bru.png" alt="Video Thumbnail">
+      <h3>Manchester City vs Club Brugge</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="iframe" data-link="https://secureplayer.sportstvn.com/token.php?stream=TNTSports02">Source 1</button>
+      <button class="play-btn" data-type="m3u8" data-link="https://bdixtv24.site/toffee/live.php?id=sony_sports_2_hd&e=.m3u8">Source 2</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=bbtsp2">Source 3</button>
+      
+    </div>
+
+    <div class="card">
+      <img src="psv liv.png" alt="Video Thumbnail">
+      <h3>PSV Eindhoven vs Liverpool</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="iframe" data-link="https://secureplayer.sportstvn.com/token.php?stream=TNTSports03">Source 1</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=bbtsp3">Source 2</button>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=superpsl">Source 3</button>
+      
+    </div>
+
+    <div class="card">
+      <img src="sal atm.png" alt="Video Thumbnail">
+      <h3>RB Salzburg vs Atletico Madrid</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      
+    </div>
+
+    <div class="card">
+      <img src="spo bol.png" alt="Video Thumbnail">
+      <h3>Sporting CP vs Bologna</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      
+    </div>
+
+    <div class="card">
+      <img src="stu lei.png" alt="Video Thumbnail">
+      <h3>Sturm Graz vs RB Leipzig</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      
+    </div>
+
+    <div class="card">
+      <img src="stu psg.png" alt="Video Thumbnail">
+      <h3>VfB Stuttgart vs PSG</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-type="iframe" data-link="https://s.bdixtv24.com/sportstv.php?c=hdchnl13">Source 1</button>
+      
+    </div>
+
+    <div class="card">
+      <img src="yb crv.png" alt="Video Thumbnail">
+      <h3>Young Boys vs Crvena zvezda</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round 8</p>
+      <p>Starts at 02:00 AM</p>
+      
+    </div>
 
     <div class="card">
       <img src="bpl.jpg" alt="Video Thumbnail">
