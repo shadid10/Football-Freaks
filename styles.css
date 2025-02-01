@@ -228,6 +228,22 @@ video, iframe {
 }
 
 
+/* Disable text selection */
+body {
+    user-select: none;
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For IE/Edge */
+}
+
+/* Disable dragging images */
+img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+}
+
+
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .header {
