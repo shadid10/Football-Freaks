@@ -20,11 +20,16 @@ document.addEventListener("DOMContentLoaded", () => {
           const hls = new Hls();
           hls.loadSource(link);
           hls.attachMedia(videoElement);
+
+          hls.on(Hls.Events.MANIFEST_PARSED, () => {
+            videoElement.play();
+          });
+
         } else if (videoElement.canPlayType("application/vnd.apple.mpegurl")) {
           videoElement.src = link;
         }
         videoElement.muted = true; // Start muted
-        videoElement.play();
+        // videoElement.play();
       } else if (type === "iframe") {
         videoElement.style.display = "none";
         iframeElement.style.display = "block";
