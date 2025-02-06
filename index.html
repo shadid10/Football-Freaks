@@ -6,6 +6,7 @@
     <title>Live Match</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.6/shaka-player.compiled.min.js"></script>
     <meta name="referrer" content="no-referrer">
 </head>
 <body>
@@ -64,9 +65,10 @@
       <img src="supercric.png" alt="Video Thumbnail">
       <h3>Supersports Cricket</h3>
       <p>Live</p>
-      <!-- <button class="play-btn" data-type="iframe" data-link="https://secureplayer.sportstvn.com/token.php?stream=SuperSportsCricket">Source 1</button> -->
-      <button class="play-btn" data-type="iframe" data-link="https://bdixtv24.site/sports/sportstv.php?c=supercricket">Source 1</button>
-      <button class="play-btn" data-type="m3u8" data-link="https://bdixtv24.site/sports/m3u8.php/supercricket.m3u8">Source 2</button>
+      <button class="play-btn" data-channel="supercricket1">Source 1</button>
+      <button class="play-btn" data-channel="supercricket2">Source 2</button>
+      <!-- <button class="play-btn" data-type="iframe" data-link="https://bdixtv24.site/sports/sportstv.php?c=supercricket"></button>
+      <button class="play-btn" data-type="m3u8" data-link="https://bdixtv24.site/sports/m3u8.php/supercricket.m3u8">Source 2</button> -->
     </div>
 
     <div class="card">
@@ -202,7 +204,8 @@
       <img src="tnt1.jpg" alt="Video Thumbnail">
       <h3>TNT Sports 1</h3>
       <p>Live</p>
-      <button class="play-btn" data-type="iframe" data-link="https://bdixtv24.site/sports/sportstv.php?c=bbtsp1">Play Channel</button>
+      <button class="play-btn" data-channel="tnt1">Source 1</button>
+      <!-- <button class="play-btn" data-type="iframe" data-link="https://bdixtv24.site/sports/sportstv.php?c=bbtsp1">Play Channel</button> -->
     </div>
 
     <div class="card">
