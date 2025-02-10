@@ -138,14 +138,30 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
     // Detect Developer Tools Opening
-  setInterval(() => {
-    if (
-      window.outerHeight - window.innerHeight > 200 ||
-      window.outerWidth - window.innerWidth > 200
-    ) {
+  setInterval(function () {
+    const start = performance.now();
+    debugger;
+    const end = performance.now();
+    if (end - start > 100) {
       document.body.innerHTML = "Developer Tools Detected! Access Denied.";
     }
   }, 1000);
+
+  (function () {
+    let devtools = false;
+    const element = new Image();
+    Object.defineProperty(element, "id", {
+      get: function () {
+        devtools = true;
+        setTimeout(() => {
+          document.body.innerHTML = "Access Denied!";
+        }, 100);
+      },
+    });
+    console.log("%c", element);
+  })();
+
+
 
 
   (function () {
