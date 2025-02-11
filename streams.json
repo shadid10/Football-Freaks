@@ -57,6 +57,17 @@
     "url": "https://hastycast.best/hls/54daz6fe4za.m3u8?st=nINxaq2XKdYIEQpqPMC0pVbNydwirPjmVTHzTWHIQ_w&e=1737838428"
   },
 
+
+  "liv5": {
+    "type": "m3u8",
+    "url": "https://hastycast.best/hls/syaLqucEne4k.m3u8?st=Ig2XKhvsBcpCqavNfYm2yAM74QKplqDXpSsooVemRdo&e=1737840841"
+  },
+
+  "liv6": {
+    "type": "iframe",
+    "url": "https://foreverquote.xyz/brkt/t5.php"
+  },
+
   "supercricket1": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-368.php"
