@@ -32,6 +32,11 @@
     "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp2"
   },
 
+  "tnt2m": {
+    "type": "m3u8",
+    "url": "https://hastycast.best/hls/b0h5fNwDKH.m3u8?st=OpOMixgStaFrnq6rAKc7YhNIlHNBX7aMQLXKrHBsAms&e=1737834226"
+  },
+
   "supercricket1": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-368.php"
