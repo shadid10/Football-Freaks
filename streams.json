@@ -37,6 +37,16 @@
     "url": "https://hastycast.best/hls/b0h5fNwDKH.m3u8?st=OpOMixgStaFrnq6rAKc7YhNIlHNBX7aMQLXKrHBsAms&e=1737834226"
   },
 
+  "liv1": {
+    "type": "m3u8",
+    "url": "https://tv.bdixtv24.live/toffee/live.php?id=sony_sports_2_hd&e=.m3u8"
+  },
+
+  "liv2": {
+    "type": "m3u8",
+    "url": "https://tv.bdixtv24.live/toffee/live.php?id=sony_sports_5_hd&e=.m3u8"
+  },
+
   "supercricket1": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-368.php"
