@@ -7,6 +7,26 @@
       "key": "63ac662dde310cfb4cc6f9b43b34196d"
     }
   },
+
+  "tnt2": {
+    "type": "dash",
+    "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
+    "drm": {
+      "keyId": "6d1708b185c6c4d7b37600520c7cc93c",
+      "key": "1aace05f58d8edef9697fd52cb09f441"
+    }
+  },
+
+  "tnt1i": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp1"
+  },
+
+  "tnt2i": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp2"
+  },
+
   "supercricket1": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-368.php"
@@ -123,6 +143,11 @@
     "url": "https://daddylive1.ru/live/stream-414.php"
   },
 
+  "superprem2": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=superpremier"
+  },
+
   "superfoot": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-56.php"
@@ -190,23 +215,25 @@
     }
   },
 
-  "": {
+  "ten1": {
     "type": "iframe",
-    "url": "https://daddylive1.ru/live/stream-414.php"
+    "url": "https://tv.bdixtv24.live/toffee/?play=sony_sports_1_hd"
   },
 
-  "": {
+  "ten2": {
     "type": "iframe",
-    "url": "https://daddylive1.ru/live/stream-414.php"
+    "url": "https://tv.bdixtv24.live/toffee/?play=sony_sports_2_hd"
   },
 
-  "": {
+  "ten3": {
     "type": "iframe",
-    "url": "https://daddylive1.ru/live/stream-414.php"
+    "url": "https://linkchur.top/tv/chd/play.php?c=ten1hd"
   },
 
-  "iframechannel": {
+  "ten5": {
     "type": "iframe",
-    "url": "https://your-iframe-source.com"
+    "url": "https://tv.bdixtv24.live/toffee/?play=sony_sports_5_hd"
   }
+
+  
 }
