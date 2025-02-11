@@ -22,6 +22,11 @@
     "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp1"
   },
 
+  "tnt1m": {
+    "type": "m3u8",
+    "url": "https://hastycast.best/hls/eJmauBDCIf.m3u8?st=T56QEyydImFuJ72DjI_fy61MiiMsjt4dgGift_kXZOM&e=1738435326"
+  },
+
   "tnt2i": {
     "type": "iframe",
     "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp2"
