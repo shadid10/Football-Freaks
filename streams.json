@@ -199,6 +199,26 @@
     "url": "https://daddylive1.ru/live/stream-413.php"
   },
 
+  "supervar1": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl6"
+  },
+
+  "supervar2": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl7"
+  },
+
+  "supervar3": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl8"
+  },
+
+  "supervar4": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl9"
+  },
+
   "superac": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-420.php"
