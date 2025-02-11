@@ -47,6 +47,16 @@
     "url": "https://tv.bdixtv24.live/toffee/live.php?id=sony_sports_5_hd&e=.m3u8"
   },
 
+  "liv3": {
+    "type": "m3u8",
+    "url": "https://fredflix.fun/bdix1/live.php?ferdos=SONY-TEN-3&e=.m3u8"
+  },
+
+  "liv4": {
+    "type": "m3u8",
+    "url": "https://hastycast.best/hls/54daz6fe4za.m3u8?st=nINxaq2XKdYIEQpqPMC0pVbNydwirPjmVTHzTWHIQ_w&e=1737838428"
+  },
+
   "supercricket1": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-368.php"
