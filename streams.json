@@ -176,6 +176,21 @@
     "url": "https://daddylive1.ru/live/stream-346.php"
   },
 
+  "willow3": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=willowusa"
+  },
+
+  "willow4": {
+    "type": "m3u8",
+    "url": "https://d3.dunyapurkaraja.com:999/hls/willowusa.m3u8?md5=HHvHBYi1Na6zVOeYzr5Xcw&expires=1739727549"
+  },
+
+  "willow5": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/willowcricket.php"
+  },
+
   "willowex": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-598.php"
@@ -283,6 +298,26 @@
   "supermax1": {
     "type": "iframe",
     "url": "https://s1.thenayeemparvez.xyz/daddyhd/?play=123"
+  },
+
+  "prem1uk1": {
+    "type": "m3u8",
+    "url": "https://d5.dunyapurkaraja.com:999/hls/premieruk.m3u8?md5=JuAyCWLER1_sTHcj6fELBQ&expires=1739726047"
+  },
+
+  "prem1uk2": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/premier.php"
+  },
+
+  "prem2uk1": {
+    "type": "m3u8",
+    "url": "https://d1.dunyapurkaraja.com:999/hls/hdchnl2.m3u8?md5=DsKfd4anHU-6YaX8iKPdHg&expires=1739726423"
+  },
+
+  "prem2uk2": {
+    "type": "iframe",
+    "url": "stream.crichd.sc/update/ch2.php"
   },
 
   "livtot": {
