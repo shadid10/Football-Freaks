@@ -72,19 +72,30 @@
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-368.php"
   },
+
   "supercricket2": {
     "type": "m3u8",
     "url": "https://bdixtv24.site/sports/m3u8.php/supercricket.m3u8"
   },
 
+  "supercricket3": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=supercricket"
+  },
+  
   "tsportsbd1": {
     "type": "iframe",
-    "url": "https://daddylive1.ru/live/stream-270.php"
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://cdn.hoichoi24.com/TSportsHD/tracks-v1a1/mono.ts.m3u8"
   },
 
   "tsportsbd2": {
     "type": "iframe",
     "url": "https://bdixtv24.site/jadoo/play.php?id=t_sports"
+  },
+
+  "tsportsbd3": {
+    "type": "m3u8",
+    "url": "https://cdn.hoichoi24.com/TSportsHD/tracks-v1a1/mono.ts.m3u8"
   },
 
   "gtv": {
@@ -94,7 +105,7 @@
 
   "asports": {
     "type": "iframe",
-    "url": "https://daddylive1.ru/live/stream-269.php"
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=asportshd"
   },
 
   "sports18": {
@@ -110,6 +121,15 @@
   "tencric1": {
     "type": "m3u8",
     "url": "https://bdixtv24.site/toffee/live.php?id=ten_cricket&e=.m3u8"
+  },
+
+  "tencric3": {
+    "type": "dash",
+    "url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/manifest.mpd",
+    "drm": {
+      "keyId": "9872e439f21f4a299cab249c6554daa3",
+      "key": "0cdfcfe0d0f1fbe100554ce3ef4c4665"
+    }
   },
 
   "astrocric2": {
@@ -255,15 +275,6 @@
     "drm": {
       "keyId": "6d1708b185c6c4d7b37600520c7cc93c",
       "key": "1aace05f58d8edef9697fd52cb09f441"
-    }
-  },
-
-  "superliga3": {
-    "type": "dash",
-    "url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/manifest.mpd",
-    "drm": {
-      "keyId": "9872e439f21f4a299cab249c6554daa3",
-      "key": "0cdfcfe0d0f1fbe100554ce3ef4c4665"
     }
   },
 
