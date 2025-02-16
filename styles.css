@@ -158,7 +158,7 @@ video, iframe {
 
 .tab-content.active {
     display: block;
-    margin: 10px;
+    margin: 25px;
 }
 
 .card {
