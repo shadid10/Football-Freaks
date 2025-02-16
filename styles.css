@@ -153,16 +153,16 @@ video, iframe {
 
 .tab-content {
     display: none;
-    width: 96%;
+    /* width: 96%; */
 }
 
 .tab-content.active {
     display: block;
-    margin: 25px;
+    margin: 10px;
 }
 
 .card {
-    margin: 5px;
+    margin: 3px;
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #fff;
