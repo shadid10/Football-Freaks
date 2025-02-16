@@ -205,6 +205,11 @@
     "url": "https://d2.dunyapurkaraja.com:999/hls/skysprem.m3u8?md5=is-_h9RUlrFbtPfdSe2itQ&expires=1739720595"
   },
 
+  "skyprem3": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/skys5.php"
+  },
+
   "skyfoot": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-35.php"
