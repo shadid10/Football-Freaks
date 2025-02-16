@@ -132,7 +132,17 @@
     }
   },
 
-  "astrocric2": {
+  "foxcric1": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.site/sports/sportstv.php?c=fox501"
+  },
+
+  "foxcric2": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/fox501.php"
+  },
+
+  "astrocric3": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-370.php"
   },
@@ -305,7 +315,39 @@
   "ten5": {
     "type": "iframe",
     "url": "https://tv.bdixtv24.live/toffee/?play=sony_sports_5_hd"
+  },
+
+  "ct1m": {
+    "type": "m3u8",
+    "url": "https://tv.bdixtv24.live/toffee/live.php?id=match-1&e=.m3u8"
+  },
+
+  "ct1i": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/toffee/?play=match-1"
+  },
+
+  "ct2m": {
+    "type": "m3u8",
+    "url": "https://tv.bdixtv24.live/toffee/live.php?id=match-2&e=.m3u8"
+  },
+
+  "ct2i": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/toffee/?play=match-2"
+  },
+
+  "ct3m": {
+    "type": "m3u8",
+    "url": "https://tv.bdixtv24.live/toffee/live.php?id=match-3&e=.m3u8"
+  },
+
+  "ct3i": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/toffee/?play=match-3"
   }
+
+
 
   
 }
