@@ -225,6 +225,16 @@
     "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=laligauk"
   },
 
+  "superliga2": {
+    "type": "m3u8",
+    "url": "https://d8.dunyapurkaraja.com:999/hls/laligauk.m3u8?md5=qUaWcb7Lld7I_y5PxrZkSQ&expires=1739723986"
+  },
+
+  "superliga3": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/laligauk.php"
+  },
+
   "superprem": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-414.php"
@@ -293,15 +303,6 @@
   "valbar": {
     "type": "iframe",
     "url": "https://yosintv3.github.io/player/player5.html?url=https://buddyxiptv.com/fancode/global/primary/117370_english_hls_6280ta-no/index.m3u8"
-  },
-
-  "superliga2": {
-    "type": "dash",
-    "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
-    "drm": {
-      "keyId": "6d1708b185c6c4d7b37600520c7cc93c",
-      "key": "1aace05f58d8edef9697fd52cb09f441"
-    }
   },
 
   "superliga4": {
