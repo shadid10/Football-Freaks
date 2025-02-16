@@ -195,9 +195,14 @@
     "url": "https://daddylive1.ru/live/stream-65.php"
   },
 
-  "skyprem": {
+  "skyprem2": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-130.php"
+  },
+
+  "skyprem": {
+    "type": "m3u8",
+    "url": "https://d2.dunyapurkaraja.com:999/hls/skysprem.m3u8?md5=is-_h9RUlrFbtPfdSe2itQ&expires=1739720595"
   },
 
   "skyfoot": {
