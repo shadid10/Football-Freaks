@@ -196,6 +196,21 @@
     "url": "https://daddylive1.ru/live/stream-598.php"
   },
 
+  "willowex1": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=willowextra"
+  },
+
+  "willowex2": {
+    "type": "m3u8",
+    "url": "https://d5.dunyapurkaraja.com:999/hls/willowextra.m3u8?md5=vlLq4ET-E6gi7yAwCIfwbQ&expires=1739728762"
+  },
+
+  "willowex3": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/willowextra.php"
+  },
+
   "skycric1": {
     "type": "dash",
     "url": "https://linear017-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_720_120/Live/channel(skysportsmainevent)/manifest_720.mpd",
@@ -208,6 +223,21 @@
   "skycric2": {
     "type": "iframe",
     "url": "https://daddylive1.ru/live/stream-65.php"
+  },
+
+  "skycric3": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=skyscric"
+  },
+
+  "skycric4": {
+    "type": "m3u8",
+    "url": "https://d8.dunyapurkaraja.com:999/hls/skyscric.m3u8?md5=TS0jMPobNcwpydHdoWTQ1g&expires=1739729127"
+  },
+
+  "skycric5": {
+    "type": "iframe",
+    "url": "stream.crichd.sc/update/skys2.php"
   },
 
   "skyprem2": {
@@ -223,6 +253,16 @@
   "skyprem3": {
     "type": "iframe",
     "url": "https://stream.crichd.sc/update/skys5.php"
+  },
+
+  "skyprem4": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=skysprem"
+  },
+
+  "skyprem5": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.com/dsports/play.php?play=130"
   },
 
   "skyfoot": {
