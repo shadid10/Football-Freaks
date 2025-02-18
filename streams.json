@@ -17,14 +17,28 @@
     }
   },
 
+  "tnt3": {
+    "type": "dash",
+    "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
+    "drm": {
+      "keyId": "4e993aa8c1f295f8b94e8e9e6f6d0bfe",
+      "key": "86a1ed6e96caab8eb1009fe530d2cf4f"
+    }
+  },
+
   "tnt1i": {
     "type": "iframe",
     "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp1"
   },
 
-  "tnt1m": {
+  "tnt2m": {
     "type": "m3u8",
     "url": "https://hastycast.best/hls/eJmauBDCIf.m3u8?st=T56QEyydImFuJ72DjI_fy61MiiMsjt4dgGift_kXZOM&e=1738435326"
+  },
+
+  "supprem": {
+    "type": "m3u8",
+    "url": "https://hastycast.best/hls/sqdahach1ax.m3u8?st=M6WcFcBCrmthsxcs4Vy2BUnVKNrW2q-ZYNq23lsCVRU&e=1737834304"
   },
 
   "tnt2i": {
@@ -32,24 +46,39 @@
     "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp2"
   },
 
-  "tnt2m": {
+  "tnt3m": {
     "type": "m3u8",
     "url": "https://hastycast.best/hls/b0h5fNwDKH.m3u8?st=OpOMixgStaFrnq6rAKc7YhNIlHNBX7aMQLXKrHBsAms&e=1737834226"
   },
 
-  "liv1": {
+  "tnt3m2": {
+    "type": "m3u8",
+    "url": "https://d1.dunyapurkaraja.com:999/hls/bbtsp3.m3u8?md5=NUiZmEYguLttR6FSnKUO9A&expires=1739911848"
+  },
+
+  "tnt3i": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/bteu.php"
+  },
+
+  "sony1": {
+    "type":"m3u8",
+    "url":"https://tv.bdixtv24.live/toffee/live.php?id=sony_sports_1_hd&e=.m3u8"
+  },
+
+  "sony2": {
     "type": "m3u8",
     "url": "https://tv.bdixtv24.live/toffee/live.php?id=sony_sports_2_hd&e=.m3u8"
   },
 
-  "liv2": {
+  "sony5": {
     "type": "m3u8",
     "url": "https://tv.bdixtv24.live/toffee/live.php?id=sony_sports_5_hd&e=.m3u8"
   },
 
-  "liv3": {
+  "sony3": {
     "type": "m3u8",
-    "url": "https://fredflix.fun/bdix1/live.php?ferdos=SONY-TEN-3&e=.m3u8"
+    "url": "https://linkchur.top/tv/chd/m3u8.php/ten1hd.m3u8"
   },
 
   "liv4": {
@@ -282,7 +311,7 @@
 
   "superliga2": {
     "type": "m3u8",
-    "url": "https://d8.dunyapurkaraja.com:999/hls/laligauk.m3u8?md5=qUaWcb7Lld7I_y5PxrZkSQ&expires=1739723986"
+    "url": "https://tv.bdixtv24.com/dsports/stream.php?id=346&srv=1&vtoken=&e=.m3u8"
   },
 
   "superliga3": {
@@ -348,6 +377,11 @@
   "prem1uk2": {
     "type": "iframe",
     "url": "https://stream.crichd.sc/update/premier.php"
+  },
+
+  "prem1uk2i": {
+    "type": "iframe",
+    "url": "https://linkchur.top/tv/chd/play.php?c=premieruk"
   },
 
   "prem2uk1": {
