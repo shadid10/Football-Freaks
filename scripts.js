@@ -30,6 +30,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       modal.style.display = "flex";
 
       if (stream.type === "dash") {
+        showPopup("📢 Stream is Loading. Please wait. The video will start playing automatically.\n       Once the video starts playing, it will not buffer anymore.");
+
         iframeElement.style.display = "none";
         videoElement.style.display = "block";
         qualitySelector.style.display = "block"; // Show quality selector
@@ -224,5 +226,16 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     });
   });
+
+  const popup = document.getElementById("popup");
+
+  function showPopup(message, duration = 9000) {
+    popup.innerText = message;
+    popup.style.display = "block";
+
+    setTimeout(() => {
+      popup.style.display = "none";
+    }, duration);
+  }
 });
 

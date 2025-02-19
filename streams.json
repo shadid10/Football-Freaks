@@ -26,6 +26,15 @@
     }
   },
 
+  "tnt4": {
+    "type": "dash",
+    "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+    "drm": {
+      "keyId": "e31a5a81caff5d07ea2411a571fc2e59",
+      "key": "96c5ef69479732ae734f962748c19729"
+    }
+  },
+
   "tnt1i": {
     "type": "iframe",
     "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp1"
@@ -74,7 +83,7 @@
 
   "sony2": {
     "type": "m3u8",
-    "url": "https://tv.bdixtv24.live/toffee/live.php?id=sony_sports_2_hd&e=.m3u8"
+    "url": "https://host.mafiatv.live/toffee/live.php?id=sony_sports_2_hd&e=.m3u8"
   },
 
   "sony5": {
@@ -123,6 +132,21 @@
     "url": "https://yosintv3.github.io/player/player1.html?url=https://cdn.hoichoi24.com/TSportsHD/tracks-v1a1/mono.ts.m3u8"
   },
 
+  "tsportsbd1ct": {
+    "type": "m3u8",
+    "url": "https://cdn.hoichoi24.com/LIVE/video.m3u8"
+  },
+
+  "tsportsbd1cti": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://cdn.hoichoi24.com/LIVE/video.m3u8"
+  },
+
+  "tsportsbd2ct": {
+    "type": "m3u8",
+    "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8"
+  },
+
   "tsportsbd2": {
     "type": "iframe",
     "url": "https://bdixtv24.site/jadoo/play.php?id=t_sports"
@@ -146,6 +170,21 @@
   "sports18": {
     "type": "m3u8",
     "url": "https://jiotvbpklive.cdn.jio.com/bpk-tv/IDCDemo_IPL23_Sports18_MOB/Fallback/IDCDemo_IPL23_Sports18_MOB-audio_98838_eng=98800-video=2293600.m3u8"
+  },
+
+  "sports182": {
+    "type": "m3u8",
+    "url": "https://jiotvbpklive.cdn.jio.com/bpk-tv/IDCDemo_IPL23_Sports18_MOB/Fallback/index.m3u8"
+  },
+
+  "myco": {
+    "type": "m3u8",
+    "url": "https://ml-pull-hwc.myco.io/stream1/hls/stream1.m3u8"
+  },
+
+  "PTV": {
+    "type": "iframe",
+    "url": "https://linkchur.top/tv/chd/play.php?c=ptvpk"
   },
 
   "tencric2": {
@@ -477,6 +516,39 @@
   "ct3i": {
     "type": "iframe",
     "url": "https://tv.bdixtv24.live/toffee/?play=match-3"
+  },
+
+  "ct1m1": {
+    "type": "m3u8",
+    "url": "https://host.mafiatv.live/toffee/live.php?id=match-1&e=.m3u8"
+  },
+
+  "ct1mpdprime": {
+    "type": "dash",
+    "url": "https://aba5sdmaaaaaaaamdgp3ryzabcel7.otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/1koccf0pf1/out/v1/190f1d69a3d5467f8fb7d9df4339bc49/cenc.mpd",
+    "drm": {
+      "keyId": "cb8daf414566aa17d06f8294f3f3b444",
+      "key": "89d58908a57d70ef87bf16c9b5821ca2"
+    }
+  },
+
+  "ct1mpdwillow": {
+    "type": "dash",
+    "url": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/f60kqesunw/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+    "drm": {
+      "keyId": "1779c27b9d077a3ba0c9cc1bb9a94b9f",
+      "key": "cc5cf3b7928fb9e0a1ee6a8b566f0a8e"
+    }
+  },
+
+  "ct1i1": {
+    "type": "iframe",
+    "url": "https://host.mafiatv.live/toffee/?play=match-2"
+  },
+
+  "ct2bangla": {
+    "type": "m3u8",
+    "url": "https://www.uspro.click/live.php?id=c58fd7a1e300&e=.m3u8"
   }
 
 
