@@ -42,7 +42,7 @@
 
   "tnt1m": {
     "type": "m3u8",
-    "url": "https://hastycast.best/hls/24SDAZFcsqnjbdaz.m3u8?st=eT4wJsKAuhfENXJ2VyrpN5jevl3RNTHTyRxICJXKDA0&e=1737834194"
+    "url": "https://hastycast.pro/hls/24SDAZFcsqnj24.m3u8?st=7H-_BUYeWqiHthf063tbZa5ltBZvurZS84HVNFxP-6E&e=1741118525"
   },
 
 
@@ -52,13 +52,18 @@
   },
 
   "supprem": {
-    "type": "m3u8",
-    "url": "https://hastycast.best/hls/sqdahach1ax.m3u8?st=M6WcFcBCrmthsxcs4Vy2BUnVKNrW2q-ZYNq23lsCVRU&e=1737834304"
+    "type": "iframe",
+    "url": "https://streamscenter.pro/embed/ch3.php"
+  },
+
+  "tnt1i2": {
+    "type": "iframe",
+    "url": "https://streamscenter.pro/embed/ch1.php"
   },
 
   "tnt2i": {
     "type": "iframe",
-    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp2"
+    "url": "https://streamscenter.pro/embed/ch2.php"
   },
 
   "tnt3m": {
@@ -234,7 +239,7 @@
 
   "astrocric1": {
     "type": "dash",
-    "url": "https://fuzzy-memory-g4rj6r79ww69hj6-5000.app.github.dev/https://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_primary.mpd",
+    "url": "https://astro-gbj7.vercel.app/2504/default_ott.mpd",
     "drm": {
       "keyId": "03c2e0af2f8159f9f0ce9b5dbc865f10",
       "key": "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
@@ -540,19 +545,19 @@
 
   "ct1mpdprime": {
     "type": "dash",
-    "url": "https://aba5sdmaaaaaaaamjyr2xiy4rbicb.otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/zqhtvqjquq/out/v1/190f1d69a3d5467f8fb7d9df4339bc49/cenc.mpd",
+    "url": "https://otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xqqu5jyoti/out/v1/190f1d69a3d5467f8fb7d9df4339bc49/cenc.mpd",
     "drm": {
-      "keyId": "cb8daf414566aa17d06f8294f3f3b444",
-      "key": "89d58908a57d70ef87bf16c9b5821ca2"
+      "keyId": "d790f0486bf8b693422cfe64d9ed342a",
+      "key": "52fd36bde6820b5c07ce4485642394a8"
     }
   },
 
     "ct1mpdprimehin": {
     "type": "dash",
-    "url": "https://userx534.protect-cdn.net/live/m3-720p.m3u8",
+    "url": "https://otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rkyxparx1t/out/v1/fe9782633a364a6a84c9410f26d9b2c4/cenc.mpd",
     "drm": {
-      "keyId": "4a5191838da17a2ab771f4258fad347f",
-      "key": "54b7a084437459368eed07d182ad644c"
+      "keyId": "494c5ddd4a2b9c38da05e053c0fd6d3f",
+      "key": "ad1ff8c72fc6fefbce716609da9347cf"
     }
   },
     "ct1mpdprimehin2": {
