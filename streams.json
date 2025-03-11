@@ -53,6 +53,11 @@
 
   "supprem": {
     "type": "iframe",
+    "url": "https://helloapps.blog/web/?id=2"
+  },
+
+  "supprem2": {
+    "type": "iframe",
     "url": "https://streamscenter.pro/embed/ch3.php"
   },
 
@@ -137,6 +142,21 @@
     "url": "https://yosintv3.github.io/player/player1.html?url=https://cdn.hoichoi24.com/TSportsHD/tracks-v1a1/mono.ts.m3u8"
   },
 
+  "tsportslive1": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8"
+  },
+
+  "tsportslive2": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://live.tsports.com/mobile_hls/tsports_live_2/playlist.m3u8"
+  },
+
+  "tsportslive3": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://live.tsports.com/mobile_hls/tsports_live_3/playlist.m3u8"
+  },
+
   "tsportsbd1ct": {
     "type": "m3u8",
     "url": "https://cdn.hoichoi24.com/LIVE/video.m3u8"
@@ -174,7 +194,7 @@
 
   "asports": {
     "type": "iframe",
-    "url": "https://tv.bdixtv24.live/sports/sportstv.php?c=asportshd"
+    "url": "https://stream.crichd.sc/update/asportshd.php"
   },
 
   "sports18": {
@@ -194,7 +214,7 @@
 
   "PTV": {
     "type": "iframe",
-    "url": "https://linkchur.top/tv/chd/play.php?c=ptvpk"
+    "url": "https://stream.crichd.sc/update/ptv.php"
   },
 
   "tencric2": {
@@ -248,10 +268,10 @@
 
   "willow1": {
     "type": "dash",
-    "url": "https://mhdsports.nl/miniproxie.php/https://linear-novi.stvacdn.spectrum.com/LIVE/5248/bpk-tv/10364/drm/manifest.mpd",
+    "url": "https://da-d436234b20010b8800010302000000000000000d.id.cdn.upcbroadband.com/wp/wp1-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000107_019441/go-dash-hdready-avc/NL_000107_019441.mpd",
     "drm": {
-      "keyId": "b9e69652984f5d3ba16ada75794c9d42",
-      "key": "ba35f32093f5da7352d8aaead4712b8e"
+      "keyId": "3e999e38253834baa63881ea451f2839",
+      "key": "99b88d9cde1d8986decbc5985da87187"
     }
   },
 
