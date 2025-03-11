@@ -61,6 +61,11 @@
     "url": "https://streamscenter.pro/embed/ch3.php"
   },
 
+  "supprem3": {
+    "type": "m3u8",
+    "url": "https://esgabejkoebz.sbs/live/2/chunks.m3u8"
+  },
+
   "tnt1i2": {
     "type": "iframe",
     "url": "https://streamscenter.pro/embed/ch1.php"
