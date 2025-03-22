@@ -599,6 +599,33 @@
     }
   },
 
+  "iplhindistar2": {
+    "type": "m3u8",
+    "url": "https://v18tataplaysyndication.akamaized.net/bpk-tv/Sports18_1_HD_voot_MOB/output03/index.m3u8?hdnea=exp=1742653340~acl=/*~hmac=4300d188d0b9b22ca845f113a62f2a612416c820d10a2d03a98f2e7328d67b6d"
+  },
+
+  "iplengstar1": {
+    "type": "m3u8",
+    "url": "https://off1.dunyapurkaraja.com:1686/hls/star1in.m3u8?md5=JieADmUsPjlZht1-aULlFQ&expires=1742656184"
+  },
+
+  "astrocricipl": {
+    "type": "dash",
+    "url": "https://astr0-proxy.vercel.app/2504/default_ott.mpd",
+    "drm": {
+      "keyId": "03c2e0af2f8159f9f0ce9b5dbc865f10",
+      "key": "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
+    }
+  },
+
+
+  "tsportsipl": {
+    "type": "m3u8",
+    "url": "https://live.tsports.com/mobile_hls/tsports_live_2/index.m3u8"
+  },
+
+  
+
   "ct1i1": {
     "type": "iframe",
     "url": "https://host.mafiatv.live/toffee/?play=match-2"
