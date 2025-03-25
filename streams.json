@@ -655,6 +655,11 @@
     "url": "https://www.uspro.click/live.php?id=c58fd7a1e300&e=.m3u8"
   },
 
+  "argbra": {
+    "type": "m3u8",
+    "url": "https://jf7.dunyapurkaraja.com:999/hls/premieruk.m3u8?md5=gcACK6LIavmYf6lAM_JfwQ&expires=1742951265"
+  },
+
   "cityliv": {
     "type": "m3u8",
     "url": "https://off1.dunyapurkaraja.com:999/hls/skysme.m3u8?md5=npdbsuqJAWKqzzeNEih4Gg&expires=1740335921"
