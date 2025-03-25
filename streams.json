@@ -599,6 +599,15 @@
     }
   },
 
+  "iplmpdwillow": {
+    "type": "dash",
+    "url": "https://a170aivottlinear-a.akamaihd.net/OTTB/fra-nitro/live/clients/dash/enc/f60kqesunw/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+    "drm": {
+      "keyId": "1779c27b9d077a3ba0c9cc1bb9a94b9f",
+      "key": "cc5cf3b7928fb9e0a1ee6a8b566f0a8e"
+    }
+  },
+
   "iplhindistar2": {
     "type": "m3u8",
     "url": "https://v18tataplaysyndication.akamaized.net/bpk-tv/Sports18_1_HD_voot_MOB/output03/index.m3u8?hdnea=exp=1742653340~acl=/*~hmac=4300d188d0b9b22ca845f113a62f2a612416c820d10a2d03a98f2e7328d67b6d"
@@ -607,6 +616,11 @@
   "iplengstar1": {
     "type": "m3u8",
     "url": "https://off1.dunyapurkaraja.com:1686/hls/star1in.m3u8?md5=JieADmUsPjlZht1-aULlFQ&expires=1742656184"
+  },
+
+  "banind": {
+    "type": "iframe",
+    "url": "https://foreverquote.xyz/brkt/t10.php?=ch10"
   },
 
   "astrocricipl": {
@@ -624,7 +638,7 @@
     "url": "https://live.tsports.com/mobile_hls/tsports_live_2/index.m3u8"
   },
 
-  
+
 
   "ct1i1": {
     "type": "iframe",
