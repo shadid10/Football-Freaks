@@ -35,6 +35,16 @@
     }
   },
 
+  "willowcricx": {
+    "type": "dash",
+    "url": "http://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/nmcsyv34ql/out/v1/663f8f08059340889951eee1351eddc2/cenc.mpd",
+    "drm": {
+      "keyId": "cec3ed49d57d515346b5a94787d47c56",
+      "key": "2eb7e6bce0c1dd2d17f754092e24cf39"
+    }
+  },
+
+
   "tnt1i": {
     "type": "iframe",
     "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=bbtsp1"
