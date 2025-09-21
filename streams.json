@@ -35,7 +35,7 @@
     }
   },
 
-  "willowcricx": {
+  "willowcric": {
     "type": "dash",
     "url": "http://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/nmcsyv34ql/out/v1/663f8f08059340889951eee1351eddc2/cenc.mpd",
     "drm": {
@@ -192,7 +192,7 @@
     "url": "https://stream.crichd.sc/update/fox501.php"
   },
 
-  "willowcric": {
+  "willowcricxx": {
     "type": "iframe",
     "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=willowusa"
   },
