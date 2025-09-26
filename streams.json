@@ -53,6 +53,15 @@
     }
   },
 
+  "fubo2":{
+    "type": "dash",
+    "url": "https://abm5x5xaaaaaaaamcqsg3izt3pszd.otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uiffe4jhf0/out/v1/3534efafca8c4815adbb4d2e9a1fe003/cenc.mpd",
+    "drm": {
+      "keyId": "3dcfbec0e7146928baa55210bf2cb62f",
+      "key": "bc85f74f815d9be5ae1dd6defaa05135"
+    }
+  },
+
 
   "tnt1i": {
     "type": "iframe",
