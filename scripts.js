@@ -95,6 +95,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     iframeElement.src = "";
   });
 
+  function openPlayer(pageName) {
+      // Opens the corresponding HTML file in a new tab
+      window.open(pageName, "_blank");
+    }
+
   // Function to update video quality options
   function updateQualityOptions(player) {
     if (!player) return;
