@@ -1,0 +1,40 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Aston Villa vs Burnley - EPL - JW Player</title>
+        <script src="https://cdn.jwplayer.com/libraries/KB5zFt7A.js"></script>
+        <style>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { font-family: 'Segoe UI', Arial, sans-serif; background: #000; }
+            #player { width: 100%; height: 100vh; }
+            .info-bar { position: absolute; top: 0; left: 0; right: 0; background: rgba(0,0,0,0.8); color: white; padding: 15px; z-index: 1000; text-align: center; font-size: 18px; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <div class="info-bar">Aston Villa vs Burnley - EPL</div>
+        <div id="player"></div>
+        <script>
+            var player = jwplayer("player");
+            player.setup({
+                playlist: [{
+                    file: "https://g003-sle-us-cmaf-prd-cf.cdn.peacocktv.com/co01/Content/CMAF_CTR-4s/Live/channel(2506961-208374-247b2884436)/master.mpd",
+                    drm: {
+                        clearkey: {
+                            keyId: "0022736a4089d9d739499bda2561c23f",
+                            key: "d19947ae0b8340997dad7fcff571a2ba"
+                        }
+                    }
+                }],
+                width: "100%",
+                height: "100%",
+                aspectratio: "16:9",
+                autostart: true,
+                controls: true,
+                displaytitle: true,
+                title: "Aston Villa vs Burnley - EPL"
+            });
+        </script>
+    </body>
+    </html>
+    

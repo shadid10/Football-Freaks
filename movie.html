@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JW Player</title>
+    <script src="https://cdn.jwplayer.com/libraries/KB5zFt7A.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #000;
+        }
+
+        #player {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .info-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            z-index: 1000;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info-bar">Anyone But You</div>
+    <div id="player"></div>
+    <script>
+        var player = jwplayer("player");
+        player.setup({
+            playlist: [
+                {
+                    file: "https://f21.megacdn.co:2228/v3-hls-playback/bb61f3f14d539813388d843d73f446bd54cf1b1e5cdbc4756a048e398912b7a119f4ca3651be1d6b80b160c90e418e87d72b5dce2b5d12c1d75077946114da96d0aad11ec88cbd154f67dd91ee1b97e9811449d336af4b9443fe94136367f31eb383669f894afa8b6e67be6e73584718577e0e7b723237bb0363ff97d8879f4016d00b54cdb9068bf931f1a92a54997abdce7f514b38208037f5f126166b180894fbf0afd95fe1d97c78d59056a6a725e7d5e488bfaf5d30cceb247192b54cda/720/index.m3u8",
+                    type: "hls"
+                }],
+            width: "100%",
+            height: "100%",
+            aspectratio: "16:9",
+            autostart: true,
+            controls: true,
+            displaytitle: true,
+            title: "BEIN_XTRA_N_ES"
+        });
+    </script>
+</body>
+
+</html>

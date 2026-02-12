@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JW Player - NFL_2</title>
+    <script src="https://cdn.jwplayer.com/libraries/KB5zFt7A.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #000;
+        }
+
+        #player {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .info-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            z-index: 1000;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info-bar">NFL_2</div>
+    <div id="player"></div>
+    <script>
+        var player = jwplayer("player");
+        player.setup({
+            playlist: [
+                {
+                    file: "https://abm5x5xaaaaaaaamnqoji7bfgac34.ottb.live.cf.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/grfgykc72o/out/v1/3b99d95f4ec44db180e4016db60d82ea/cenc.mpd",
+                    drm: {
+                        clearkey: {
+                            keyId: "0a23d3a4fc1747364e0c21a2628c2527",
+                            key: "a86b3696fd9a4710da046dcac8af0b3c"
+                        }
+                    }
+                }],
+            width: "100%",
+            height: "100%",
+            aspectratio: "16:9",
+            autostart: true,
+            controls: true,
+            displaytitle: true,
+            title: "NFL_2"
+        });
+    </script>
+</body>
+
+</html>

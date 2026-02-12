@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JW Player</title>
+    <script src="https://cdn.jwplayer.com/libraries/KB5zFt7A.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #000;
+        }
+
+        #player {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .info-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            z-index: 1000;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info-bar"></div>
+    <div id="player"></div>
+    <script>
+        var player = jwplayer("player");
+        player.setup({
+            playlist: [
+                {
+                    file: "https://abm5x5xaaaaaaaampie4zrlukq55o.otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/v5v9yfn62i/out/v1/0991e33d09da46b2857fcc845db95c40/cenc.mpd",
+                    drm: {
+                        clearkey: {
+                            keyId: "362202eefc5d9e42eec6450998cce9e8",
+                            key: "978dfdd53186ec587d940e0bd1e2ec42"
+                        }
+                    }
+                }],
+            width: "100%",
+            height: "100%",
+            aspectratio: "16:9",
+            autostart: true,
+            controls: true,
+            displaytitle: true,
+            title: ""
+        });
+    </script>
+</body>
+
+</html>
