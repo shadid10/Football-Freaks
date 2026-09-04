@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>JW Player - BEIN_XTRA_N_ES</title>
+    <title>JW Player - CANALE_5_IT</title>
     <script src="https://cdn.jwplayer.com/libraries/KB5zFt7A.js"></script>
     <style>
         * {
@@ -38,15 +38,20 @@
 </head>
 
 <body>
-    <div class="info-bar">BEIN_XTRA_N_ES</div>
+    <div class="info-bar">CANALE_5_IT</div>
     <div id="player"></div>
     <script>
         var player = jwplayer("player");
         player.setup({
             playlist: [
                 {
-                    file: "https://corestream.siteyaptim.live//bein1/tracks-v1a1/mono.m3u8",
-                    type: "hls"
+                    file: "https://nog-live1-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd",
+                    drm: {
+                        clearkey: {
+                            keyId: "95b52d16d344af539ce9c2c9ff95571a",
+                            key: "5f035d9c4a178221f89d2439426b2e9a"
+                        }
+                    }
                 }],
             width: "100%",
             height: "100%",
@@ -54,7 +59,7 @@
             autostart: true,
             controls: true,
             displaytitle: true,
-            title: "BEIN_XTRA_N_ES"
+            title: "CANALE_5_IT"
         });
     </script>
 </body>
