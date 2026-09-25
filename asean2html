@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JW Player - Bangladesh vs Malaysia</title>
+    <script src="https://cdn.jwplayer.com/libraries/KB5zFt7A.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #000;
+        }
+
+        #player {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .info-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            z-index: 1000;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info-bar">Bangladesh vs Malaysia</div>
+    <div id="player"></div>
+    <script>
+        var player = jwplayer("player");
+        player.setup({
+            playlist: [
+                {
+                    file: "https://prod-cdn01-live.toffeelive.com/live/FIFA-ASEAN-1/0/master_2500.m3u8?hdntl=Expires=1790396835~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiNWYzZTQ2MTMtZGVjNi00MjY3LWFhNGUtMzRjM2ViZDI3MWQxIn0~Signature=AVCasXv_trK1V8nA87xHV9VdOI8Ozmfb8upvRWP3UegILxLRSbVRIeLdMUiwOvGmcl0f1s_1sBr62ogNLGLwjGpZmbQG",
+                    type: "hls"
+                }],
+            width: "100%",
+            height: "100%",
+            aspectratio: "16:9",
+            autostart: true,
+            controls: true,
+            displaytitle: true,
+            title: "Bangladesh vs Malaysia"
+        });
+    </script>
+</body>
+
+</html>
