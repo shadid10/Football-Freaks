@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>JW Player</title>
+
+```
+<script src="https://cdn.jwplayer.com/libraries/KB5zFt7A.js"></script>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #000;
+    }
+
+    #player {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .info-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 15px;
+        z-index: 1000;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+
+<body>
+
+<div class="info-bar" id="title">Loading...</div>
+<div id="player"></div>
+
+<script>
+
+    async function loadStream() {
+
+        try {
+
+            // Get ?channel=1 from the URL
+            const params = new URLSearchParams(window.location.search);
+            const channelId = params.get("channel");
+
+            if (!channelId) {
+                throw new Error("No channel specified");
+            }
+
+            // Load JSON
+            const response = await fetch("streams.json");
+
+            if (!response.ok) {
+                throw new Error("Could not load streams.json");
+            }
+
+            const data = await response.json();
+
+            // Find requested channel
+            const channel = data.channel.find(
+                item => String(item.id) === String(channelId)
+            );
+
+            if (!channel) {
+                throw new Error("Channel not found: " + channelId);
+            }
+
+            // Get channel information
+            const title = channel.title;
+            const streamUrl = channel.MANIFEST_URL;
+            const keyId = channel.DRM_KID;
+            const key = channel.DRM_KEY;
+
+            // Update title
+            document.getElementById("title").textContent = title;
+
+            // Initialize JW Player
+            const player = jwplayer("player");
+
+            player.setup({
+
+                playlist: [
+                    {
+                        file: streamUrl,
+
+                        drm: {
+                            clearkey: {
+                                keyId: keyId,
+                                key: key
+                            }
+                        }
+                    }
+                ],
+
+                width: "100%",
+                height: "100%",
+                aspectratio: "16:9",
+
+                autostart: true,
+                controls: true,
+                displaytitle: true,
+                title: title
+            });
+
+        } catch (error) {
+
+            console.error("Stream loading error:", error);
+
+            document.getElementById("title").textContent =
+                "Unable to load stream";
+
+        }
+
+    }
+
+    loadStream();
+
+</script>
+
+</body>
+
+</html>
